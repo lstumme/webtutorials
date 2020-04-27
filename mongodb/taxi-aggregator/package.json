@@ -1,0 +1,17 @@
+{
+  "name": "taxi-aggregator",
+  "version": "1.0.0",
+  "description": "Mon premier projet Mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}

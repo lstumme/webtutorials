@@ -1,0 +1,26 @@
+npm init                            Ne pas remplir les valeurs par défaut
+npm install --save mongoose         Interface Javascript de mongodb, appelée mongoose
+npm install --save-dev jest         Api de tests en Javascript
+rpm run test                        Permet de lancer les tests
+
+Contenu du cours vidéo Hands-on developpers guide to mongodb    
+    - Principes de fonctionnemnet de mongoose et de jest (qui est très bien d'ailleurs)
+    - Fonctions CRUD : company.js
+    - Utilisation des références : taxi.js
+    - Utilisation des operations dans les requêtes et mise à jour
+    - Utilisation des Mongoose Features (personnalisation et hooks)
+    - Quelques fonctions avancées : skip and limit ainsi que $geonear
+
+Quelques petites remarques:
+    - Pour le moment, quand on supprime un objet référencé dans un autre, la référence n'est pas supprimée automatiquement (curieux).
+    - La fonction de pre (remove) ne fonctionne plus dans les nouvelles version mongoose ; je n'ai pas encore trouvé de mise à jour.
+
+Sujets encore à creuser :
+    - Compléter la liste des opérateurs de requête et de mise à jour (voir site)
+    - Les aggrégations, pour faire des requêtes complexes
+    - L'indexation, je n'ai pas encore compris à quoi cela pouvait servir.
+    - En s'inspirant de $geonear, voir comment on développe des objets similaires.
+    - Je ne sais toujours pas comment faire un genre de main en JavaScript.
+
+
+    
